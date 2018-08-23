@@ -671,8 +671,8 @@ const cryptocurrenciesById = {
     ledgerExplorerId: "lbc",
     blockAvgTime: 150,
     bitcoinLikeInfo: {
-      P2PKH: 125,
-      P2SH: 172
+      P2PKH: 85,
+      P2SH: 122
     },
     units: [
       {
@@ -686,8 +686,8 @@ const cryptocurrenciesById = {
         magnitude: 5
       },
       {
-        name: "satoshi",
-        code: "sat",
+        name: "dewey",
+        code: "dew",
         magnitude: 0
       }
     ]
