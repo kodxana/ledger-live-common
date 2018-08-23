@@ -18,6 +18,7 @@ export const defaultExplorers: CryptoCurrencyConfig<Explorer> = {
   ethereum_testnet: hash => `https://ropsten.etherscan.io/tx/${hash}`,
   hcash: hash => `http://explorer.h.cash/tx/${hash}`,
   komodo: hash => `https://kmdexplorer.io/tx/${hash}`,
+  lbry_credits: hash => `https://explorer.lbry.io/tx/${hash}`,
   litecoin: hash => `https://live.blockcypher.com/ltc/tx/${hash}`,
   peercoin: hash => `https://explorer.peercoin.net/tx/${hash}`,
   pivx: hash => `https://chainz.cryptoid.info/pivx/tx.dws?${hash}.htm`,
